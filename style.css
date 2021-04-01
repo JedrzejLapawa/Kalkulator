@@ -1,0 +1,177 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    font-weight: normal;
+  }
+  
+  body {
+    padding: 0;
+    margin: 0;
+    background: black;
+  }
+  
+  .calculator-grid {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+  }
+  
+  .calculator-grid > button {
+    cursor: pointer;
+    font-size: 2rem;
+    border: 1px solid white;
+    outline: none;
+    background-color: rgba(255, 255, 255, .75);
+  }
+  
+  .calculator-grid > button:hover {
+    background-color: rgba(255, 255, 255, .9);
+  }
+  
+  .span-two {
+    grid-column: span 2;
+  }
+  
+  .output {
+    grid-column: 1 / -1;
+    background-color: gray;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 10px;
+    word-wrap: break-word;
+    word-break: break-all;
+    border: 5px solid goldenrod;
+
+  }
+  
+  .output .previous-operand {
+    color: rgba(255, 255, 255, .75);
+    font-size: 1.5rem;
+  }
+  
+  .output .current-operand {
+    color: white;
+    font-size: 2.5rem;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* Background Styles Only */
+  
+  @import url('https://fonts.googleapis.com/css?family=Raleway');
+  
+  * {
+      font-family: Raleway;
+  }
+  
+  .side-links {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+  }
+  
+  .side-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: white;
+    width: 180px;
+    padding: 10px 0;
+    border-radius: 10px;
+  }
+  
+  .side-link-youtube {
+    background-color: red;
+  }
+  
+  .side-link-twitter {
+    background-color: #1DA1F2;
+  }
+  
+  .side-link-github {
+    background-color: #6e5494;
+  }
+  
+  .side-link-text {
+    margin-left: 10px;
+    font-size: 18px;
+  }
+  
+  .side-link-icon {
+    color: white;
+    font-size: 30px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* Background Styles Only */
+  
+  @import url('https://fonts.googleapis.com/css?family=Raleway');
+  
+  * {
+      font-family: Raleway;
+  }
+  
+  .side-links {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+  }
+  
+  .side-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: white;
+    width: 180px;
+    padding: 10px 0;
+    border-radius: 10px;
+  }
+  
+  .side-link-youtube {
+    background-color: red;
+  }
+  
+  .side-link-twitter {
+    background-color: #1DA1F2;
+  }
+  
+  .side-link-github {
+    background-color: #6e5494;
+  }
+  
+  .side-link-text {
+    margin-left: 10px;
+    font-size: 18px;
+  }
+  
+  .side-link-icon {
+    color: white;
+    font-size: 30px;
+  }
